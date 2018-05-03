@@ -1,0 +1,64 @@
+.btn.btn-info.btn-lg {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: #3E3D3D;
+}
+a:hover {
+    text-decoration: none;
+    color: #AEB5B5;
+}
+body img{
+    width: 100%;
+} 
+ul {
+    list-style-type: none;
+}
+.navbar {
+    font-size: 1.5em;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+footer {
+    width: 100%;
+    font-family: annie-use-your-telescope;
+    font-size: 1.875em;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+#sampleone_img {
+    background-image: url(assets/sample5.jpg);
+    background-repeat: no-repeat;
+}
+html {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif !important;
+}
+@media screen and (max-width: 480px){
+    html {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px){
+    html {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1232px){
+    html {
+        font-size: 18px;
+    }
+}
+/* responsive text */
+h1 {font-size: 2.25em;}
+h2 {font-size: 1.875em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.125em;}
+h5 {font-size: .875em;}
+h6 {font-size: .75em;}
